@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS users
 
 
 -- HQL
-INSERT INTO USER (userName, firstName, lastName, email) VALUES (:userName, :firstName, :lastName, :email)
+INSERT INTO User (userName, firstName, lastName, email) VALUES (:userName, :firstName, :lastName, :email)
 -- SQL
 INSERT INTO users (user_name, first_name, last_name, email) VALUES (:userName, :first_name, :last_name, :email)
 

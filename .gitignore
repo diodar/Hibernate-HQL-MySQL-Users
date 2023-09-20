@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-org/example/app/database/Credentials.java
+#src/main/java/org/example/app/database/Credentials.java
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
